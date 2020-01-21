@@ -173,6 +173,8 @@ nav ul {
   margin-top: 72px;
   width: 100%;
   text-align: center;
+  opacity: 0;
+  pointer-events: none;
 }
 
 #sliderMenu ul {
@@ -340,7 +342,7 @@ footer #social-media-footer ul li a .fa-github:hover {
     display:flex;
   }
   #sliderMenu{
-    /* display: block; */
+    display: block;
   }
   #searchbox{
     display: none;

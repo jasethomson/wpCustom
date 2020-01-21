@@ -331,6 +331,55 @@ footer #social-media-footer ul li a .fa-github:hover {
   color: #bbb;
 }
 
+/* BlogList Page */
+.page-heading{
+  font-size: 32px;
+  font-family: "Roboto Condensed", sans-serif;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  transition: all .4s;
+  display: inline-block;
+  padding: 4px 32px;
+  margin-top: 120px;
+}
+
+.page-heading:hover{
+  padding: 4px 48px;
+  background: rgba(28, 151, 233,.6);
+}
+
+.card-meta{
+  color: #333;
+  font-size: 14px;
+  padding-left: 8px;
+  font-family: "Roboto Slab", serif;
+}
+
+.card-meta a {
+  color: #333;
+
+}
+
+/* Pagination */
+
+.pagination{
+  padding: 8px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.pagination a{
+  border-top: 3px solid white;
+  display: inline-block;
+  padding: 8px 16px;
+  transition: .4s;
+}
+
+.pagination a:hover{
+  text-decoration: none;
+  border-top: 3px solid black;
+}
+
 /* Media Queries */
 
 @media(max-width:900px){
